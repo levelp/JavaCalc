@@ -5,7 +5,7 @@ import javax.script.ScriptException;
 /**
  * Вычисление выражений
  */
-public class Calс {
+public class Calc {
     public static void main(String[] args) throws Exception {
         ScriptEngineManager mgr = new ScriptEngineManager();
         ScriptEngine engine = mgr.getEngineByName("JavaScript");
